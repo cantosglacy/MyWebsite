@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'roboto-bold';
+  src: url(../fonts/Roboto-Bold.ttf); }
+
+@font-face {
+  font-family: 'pacifico';
+  src: url(../fonts/Pacifico-Regular.ttf);
+  font-style: normal;
+  font-weight: 100 , 600; }
+
+@font-face {
+  font-family: 'nova';
+  src: url(../fonts/NovaRound-Regular.ttf);
+  font-style: normal;
+  font-weight: 100 , 600; }
+
+body {
+  background: #FFC2A4;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center; }
+
+.logo {
+  margin: 2em 0 0 0;
+  padding: 20px 0 0 0; }
+  .logo h1 {
+    font-size: 35px;
+    font-family: 'pacifico';
+    color: #0B505F; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.container {
+  background: #FFC2A4; }
+
+.banner {
+  margin: 20px 0; }
+  .banner h1 {
+    font-family: 'nova';
+    color: #0B505F;
+    font-size: 30px; }
+
+.box {
+  background-color: teal;
+  padding: 40px;
+  margin: 0 20px;
+  color: white; }
+  .box h1 {
+    font-size: 28px;
+    color: white;
+    padding: 20px 0; }
+  .box p {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1em; }
+
+.button {
+  padding: 20px 40px;
+  color: white;
+  border-radius: 12px;
+  background-color: #306666;
+  font-size: 15px;
+  border: none;
+  box-shadow: 4px 4px 4px;
+  transition: .3s all ease-in-out;
+  cursor: pointer; }
+  .button:hover {
+    color: #306666;
+    background-color: white; }
+
+.footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: wheat;
+  font-size: 10px; }
+
+@media only screen and (min-width: 700px) {
+  .container {
+    margin: -30px 0;
+    padding: 30px;
+    display: flex;
+    align-items: center; } }

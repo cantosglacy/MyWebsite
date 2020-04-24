@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url(/fonts/Montserrat-Black.ttf);
+  font-style: normal;
+  font-weight: 100 , 600; }
+
+@media screen and (max-width: 360px) {
+  .note a:first-child {
+    border-right: none; }
+  .note a:nth-child(2) {
+    border-right: none; }
+  .menu-wrapper a:nth-child(2) {
+    border-right: none; }
+  .menu-wrapper a:first-child {
+    border-right: none; }
+  .menu-wrapper {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (min-width: 790px) {
+  .container {
+    margin: 200px 300px; }
+  #navbar a {
+    padding: 1em;
+    font-weight: 100;
+    font-size: 1.3em; }
+  #navbar {
+    margin-bottom: 1em; }
+  .headline h1 {
+    font-size: 1em;
+    margin-top: 2em;
+    padding: 0 12em;
+    display: block; }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; }
+  .button {
+    display: inline-block; } }
+
+/*==BODY===*/
+.container {
+  margin: 20px; }
+
+.banner {
+  background-color: #1D1D1D;
+  color: white;
+  text-transform: uppercase;
+  padding: 1.25em;
+  font-size: 1.2em; }
+
+#logo {
+  padding: 1.2rem;
+  font-size: 2.5rem; }
+
+#logo h3 {
+  font-family: montserrat; }
+
+#navbar {
+  padding: .25em;
+  margin-bottom: 20px; }
+
+#navbar a {
+  margin: 30px 0;
+  padding: .5em 1em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s all ease-in-out; }
+
+#navbar a:hover {
+  border-radius: 10px;
+  background-color: rgba(43, 42, 42, 0.2); }
+
+.wrapper {
+  background-image: url(/images/email-html.jpg);
+  padding: 50px 0;
+  margin-bottom: 50px;
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: white; }
+
+.menu-wrapper a {
+  padding: 20px; }
+
+.photo1 h2 {
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 8vw;
+  font-family: montserrat;
+  margin-bottom: 10px; }
+
+.button {
+  transition: .3s all ease-in-out;
+  font-size: 15px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 4px #000000;
+  padding: 10px;
+  cursor: pointer; }
+
+.button:hover {
+  color: white;
+  background-color: #555858;
+  outline: none; }
+
+.wrapper p {
+  margin-bottom: 10px;
+  text-shadow: 4px 2px 4px #000000;
+  font-size: 5vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.headline {
+  padding: 0 1em .0 1em; }
+
+.headline h1 {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+#gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3em 0;
+  justify-content: center; }
+
+.gallery {
+  margin: 0  20px; }
+
+.button2 {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 4px #000000;
+  margin: 10px;
+  cursor: pointer;
+  transition: .3s all ease-in-out; }
+
+.button2:hover {
+  color: white;
+  background-color: #555858;
+  outline: none; }
+
+.box img {
+  width: 300px;
+  height: auto; }
+
+.box {
+  flex: 1;
+  margin: 1em 0; }
+
+.flex {
+  display: flex;
+  flex-direction: column; }
+
+.gallery h3 {
+  font-size: 1.25em;
+  font-family: montserrat; }
+
+.menu a {
+  border-right: 1px solid #707375;
+  text-decoration: none;
+  padding: 0 50px;
+  color: black; }
+
+.menu-wrapper {
+  padding: 20px;
+  margin: 20px; }
+
+.menu a:last-child {
+  border-right: none; }
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px; }
+
+.icons img {
+  height: 50%;
+  padding: 0 40px; }
+
+.free {
+  flex: 1; }
+
+hr.new1 {
+  border-top: 1px solid #707375;
+  width: 80%;
+  margin: auto; }
+
+.footer h4 {
+  font-size: 1.22em;
+  margin: 20px; }
+
+.footer {
+  background-color: #1D1D1D;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.note {
+  margin: 40px auto; }
+
+.note a {
+  border-right: 1px solid #f9fbfc;
+  text-decoration: none;
+  color: white;
+  padding: 2px 40px;
+  height: 10%; }
+
+.note a:last-child {
+  border-right: none; }

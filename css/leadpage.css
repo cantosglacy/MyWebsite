@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'oxygen-bold';
+  src: url(../fonts/Oxygen-Bold.ttf);
+  font-style: normal;
+  font-weight: 100 , 600; }
+
+@font-face {
+  font-family: 'oxygen';
+  src: url(../fonts/Oxygen-Regular.ttf);
+  font-style: normal;
+  font-weight: 100 , 600; }
+
+@font-face {
+  font-family: 'anton';
+  src: url(../fonts/Anton-Regular.ttf);
+  font-style: normal;
+  font-weight: 100 , 600; }
+
+/* For width smaller than 400px: */
+body {
+  background-repeat: no-repeat;
+  background-image: url("/images/scene.jpg"); }
+
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2em;
+  color: #6B6A6B; }
+  .container .logo h1 {
+    font-size: 50px;
+    font-family: 'anton'; }
+  .container .logo p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; }
+
+.content {
+  margin: 10px 0 30px 0; }
+
+.banner {
+  margin: 1em 0;
+  padding: 1em 0; }
+  .banner h1 {
+    font-family: 'oxygen';
+    font-size: 35px;
+    padding-bottom: 10px; }
+  .banner p {
+    font-family: 'oxygen';
+    font-size: 22px;
+    padding-bottom: 10px; }
+
+.form {
+  background-color: #eff1f6;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+  .form h2 {
+    margin: 10px  0;
+    color: #6B6A6B;
+    font-size: 19px; }
+  .form .email {
+    padding: 12px;
+    margin: 10px  0;
+    outline: none;
+    border: none;
+    font-size: 22px; }
+  .form .button {
+    background-color: #524FF7;
+    padding: 20px 0;
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none; }
+  .form p {
+    color: #6B6A6B;
+    margin: 20px 0;
+    font-size: 15px; }
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  width: 95%;
+  height: 2.5rem;
+  color: white;
+  font-size: 12px; }
+  .footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px; }
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 700px) {
+  body {
+    background-image: url("/images/scene.jpg");
+    background-size: cover; }
+  .container {
+    margin: auto 2em;
+    color: white; } }
+
+@media only screen and (min-width: 790px) {
+  .banner {
+    display: flex; }
+  .content {
+    padding: 30px 30px 0 0; }
+  .form {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
